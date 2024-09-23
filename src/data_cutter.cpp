@@ -130,6 +130,7 @@ void cut_aop_data(const string& rodRawFileName,
     std::ofstream record_data_file;
     record_data_file.open(outputFileName, std::ios::binary | std::ios::out);//init record file
                 
+    //use index to cut
     if (start_time == -1){
         assert (start_idx>=0 && start_idx <end_idx && end_idx <rodReadStartPtrList.size());
         for(int rodPtr=start_idx; rodPtr <= end_idx; rodPtr ++){
@@ -142,7 +143,7 @@ void cut_aop_data(const string& rodRawFileName,
 
             record_data_file.write(reinterpret_cast<const char*>(rod_pvalue),sizeof(int)*fileSize/4);
         }
-    }else{
+    }else{//use time range to cut, time is the camera timestamp in 10us
         for(int rodPtr=0; rodPtr <rodReadStartPtrList.size(); rodPtr ++){
             uint64_t fileSize = rodReadEndPtrList[rodPtr]-rodReadStartPtrList[rodPtr];
             rodRawfile.seekg(rodReadStartPtrList[rodPtr]);
