@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O2 -rdynamic CMakeFiles/tmdat_cut.dir/example/main.cpp.o CMakeFiles/tmdat_cut.dir/src/data_cutter.cpp.o CMakeFiles/tmdat_cut.dir/src/utils.cpp.o -o tmdat_cut  -lpthread -lpthread 

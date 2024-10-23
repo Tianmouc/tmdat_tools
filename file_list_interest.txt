@@ -1,0 +1,14 @@
+MX_traffic21 140 150
+flicker_0 45 55
+flicker_4 5 15
+flicker_2 5 15
+flicker_train_exam_flicker3 100 110
+HDR_train_hdr_human 85 95
+HS_indoor_selfie_shake_3 50 60
+MX_HS_hdr_people6 165 175
+HS_break_soda_can_2 145 155 
+HS_clothes_2_shaking_white_Tshirt_black_background 190 200
+HS_ice_break_2 333 343
+HS_train_exam_fan_QRcode_1 0 10
+HS_umbrella_2 110 120
+HS_test_indoor_dog3 20 30
