@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -g -O2 -shared -Wl,-soname,libtmdat_cut_lib.so -o libtmdat_cut_lib.so CMakeFiles/tmdat_cut_lib.dir/example/main.cpp.o CMakeFiles/tmdat_cut_lib.dir/src/data_cutter.cpp.o CMakeFiles/tmdat_cut_lib.dir/src/utils.cpp.o 
